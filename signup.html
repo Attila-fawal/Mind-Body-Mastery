@@ -3,7 +3,7 @@
 <head>
 	<title>MindBody Mastery</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+
 <body>
 	<header>
 		<a href="index.html">
@@ -18,36 +18,62 @@
 			</ul>
 		</nav>
 	</header>
-
-
-	<div id="image-container">
-		
-		<img src="assets/images/t4.jpg" alt="posision 4" width="95%">
-		<div class="caption">
-		  <h2>Start with the basics: If you are new to yoga, it is important to start with the basics and work your way up to more advanced poses. Basic poses like downward dog, child's pose, and mountain pose are great for beginners</h2>
-		  <img src="assets/images/t-2.jpg" alt="posision 2">
-		  <div class="caption">
-			<h2>Focus on your breath: Yoga is not just about physical postures, it is also about breathing. Focus on your breath while practicing yoga to help calm your mind and improve your concentration</h2>
-			<img src="assets/images/t-3.jpg" alt="posision 3">
-			<div class="caption">
-			  <h2>Practice regularly: Like any other exercise, consistency is key when it comes to yoga. Try to practice yoga at least a few times a week to get the most benefits</h2>
-			  <img src="assets/images/t-6.jpg" alt="posision 6">
-			  <div class="caption">
-				<h2>Listen to your body: Yoga should never be painful. If you feel any discomfort or pain, back off from the pose and modify it if necessary</h2>
-
-				<img src="assets/images/t-5.jpg" alt="posision 5">
-				<div class="caption">
-				  <h2>Try different styles: There are many different styles of yoga, from gentle and restorative to more vigorous and athletic. Try different styles to find one that resonates with you</h2>
-				</div>
-				</div>
-				</div>
-				</div>
-		</div>
-	</div>
-		
-	  
-	  
-
+	  <title>Sign Up</title>
+	  <style>
+		body {
+		  background-color: #f1f1f1;
+		  font-family: Arial, sans-serif;
+		}
+		form {
+		  background-color: rgba(241, 109, 107, .7);
+		  border: 1px solid #ccc;
+		  border-radius: 5px;
+		  box-shadow: 0px 0px 10px #111111;
+		  padding: 20px;
+		  width: 800px;
+		  margin: 150px auto;
+		}
+		label {
+		  display: block;
+		  margin-bottom: 8px;
+		  font-weight: bold;
+		}
+		input[type=text], input[type=email], input[type=password] {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  display: inline-block;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  box-sizing: border-box;
+		  font-size: 16px;
+		}
+		input[type=submit] {
+		  background-color: rgb(241, 109, 107);
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  font-size: 16px;
+		}
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+	  </style>
+	</head>
+	<body>
+	  <form method="POST" action="/signup">
+		<label for="fullname">Full Name:</label>
+		<input type="text" id="fullname" name="fullname" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<input type="submit" value="Sign Up">
+	  </form>
+	</body>
+	</html>
 	<footer>
 		<ul class="social-networks">
             <li>
@@ -70,5 +96,5 @@
 		<p>&copy; 2023 MindBody Mastery</p>
 		<script src="https://kit.fontawesome.com/fac7d3549a.js" crossorigin="anonymous"></script>
 	</footer>
-</body>
+
 </html>
