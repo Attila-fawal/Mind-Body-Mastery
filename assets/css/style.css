@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 /* Reset styles */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +9,7 @@
 }
 
 /* Typography */
+
 body {
 	background-color: rgb(250, 230, 234);
 	font-family: Lato, sans-serif;
@@ -17,7 +19,7 @@ body {
 }
 
 h1, h2, h3 {
-	font-weight: Oswald, sans-serif;
+	font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 	color: #252525;
@@ -43,6 +45,7 @@ h1, h2, h3 {
     list-style-type: none;
 }
 /* hero image */
+
 #hero-outer{
 	height: 600px;
 	width: 100%;
@@ -68,6 +71,7 @@ color:#3a3a3a;
     animation-fill-mode: forwards;
 	
 }
+
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
@@ -98,30 +102,24 @@ color:#3a3a3a;
     position: absolute;
 }
 
-
 h1 {
 	font-size: 2.5rem;
 	font-family: Oswald, sans-serif;
-
 }
-
 h2 {
 	font-size: 2rem;
 	font-family: Oswald, sans-serif;
-
 }
-
 h3 {
 	font-size: 1.5rem;
 }
-
 p {
 	margin-bottom: 2rem;
 	font-family: Lato, sans-serif;
-
 }
 
 /* Layout */
+
 header {
 	background-color: white;
 	padding: 0.1rem;
@@ -154,7 +152,7 @@ nav a:hover {
 	background-color: rgba(241, 109, 107, .7);
 	color: white;
 }
-
+/* main content */
 #main-content {
 	height:600px;
 }
@@ -207,7 +205,6 @@ hr {
 .right-text-heading h2 {
     text-align: right;
 
-
 }
 
 .right-text-heading p {
@@ -222,9 +219,7 @@ hr {
     line-height: 1.3;
 
 }
-
-
-
+ /* second content*/
 #second-content {
     display: flex;
     justify-content: space-between;
@@ -241,11 +236,8 @@ hr {
     margin-bottom: 20px;
     background-color: rgba(250, 189, 188, 0.833);
 		box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    
   }
-  
- 
-  
+
   #second-content > div h2 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -258,8 +250,6 @@ hr {
     margin-bottom: 0;
     font-family: Lato, sans-serif;
     font-weight:bold;
-
-    
   }
 
 /* button */
@@ -285,7 +275,7 @@ hr {
 	font-size: 150%;
 	font-weight: 900;
 }
-
+ /* footer */
 footer {
 	background-color: black;
 	color: white;
@@ -305,6 +295,7 @@ footer {
     padding: 5%;
     color: rgba(250, 189, 188, 0.833);
 }
+
 /* gallery */
 
 #photos {
@@ -313,166 +304,46 @@ footer {
     column-count: 4;
     column-gap: 0;
 }
-
 #photos > img {
     width: 100%;
 }
 
+  /* techniques */
 
+  #welcome-text-technique {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    }
 
 #image-container {
-    max-width: 50%;
-    margin-left: 25%;
-    margin-top: 10%;
-    flex-direction: column;
-
-}
-
-.caption h2 {
-    font-size: 2rem;
-    text-align: center;
-}
-.caption {
-
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
-}
-
-
-
-
-
-
-
-
-/* Media queries */
-
-/* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #main-content {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-text, #right-text {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-text {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-    
-
-}
-
-
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #main-content {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-text-heading, .right-text-heading {
-        width: inherit;
-    }
-
-    .left-text-heading h2, .right-text-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-text-heading p, .right-text-heading p {
-        text-align: center;
-        padding: 0 20px;
-    }
-}
-
-
-/* For small screen sizes below 600px width */
-@media screen and (max-width: 600px) {
-    #photos {
-        column-count: 2;
-    }
-    
-    #image-container .caption {
-        
-        max-width: 100%;
-        height: auto;
-     
-    }
-    nav {
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	nav li {
-		margin-left: 0;
-		margin-bottom: 10px;
-	}
-
-	#menu-toggle {
-		display: block;
-	}
-
-	nav ul {
-		display: none;
-	}
-
-	nav.open ul {
-		display: flex;
-		flex-direction: column;
-	}
-
-	form {
-		max-width: 300px;
-		margin: 20px auto;
-	}
-
-	label,
-	input[type="submit"] {
-		display: block;
-		width: 100%;
-	}
-
-	input[type="submit"] {
-		margin-top: 10px;
-	}
-}
+  }
+  #image-container h3 {
+    text-align: center;
+  }
   
-   
+  #image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    margin-top: 5%;
+    
+  }
+  
+  .caption {
+    text-align: center;
+    margin-bottom: 40px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+/* sign up*/
 
-  #signup {
+#signup-text {
     text-align: center;
     color: whitesmoke;
     
@@ -519,3 +390,104 @@ body {
   input[type=submit]:hover {
     background-color: #45a049;
   }
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #main-content {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-text, #right-text {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-text {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+    
+    #image-container img {
+        max-width: 100%;
+        margin-top: 10%;
+      }
+      
+      .caption {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #main-content {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-text-heading, .right-text-heading {
+        width: inherit;
+    }
+
+    .left-text-heading h2, .right-text-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-text-heading p, .right-text-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+}
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+
+    #second-content {
+        flex-direction: column;
+      }
+
+      #photos {
+        column-count: 2;
+    }
+    #image-container img {
+        max-width: 100%;
+        margin-top: 10%;
+      }
+      
+      .caption {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+}
