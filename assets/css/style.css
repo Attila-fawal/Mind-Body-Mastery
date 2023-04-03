@@ -485,7 +485,6 @@ footer {
     #second-content {
         padding: 3em;
         display: grid;
-        grid: gap 2em;
       }
 }
 
@@ -498,7 +497,7 @@ footer {
         margin: 10px 0;
         padding: 5px;
       }
-
+      
     #hero-image {
         height: 400px;
         background-size: cover;
@@ -526,7 +525,6 @@ footer {
     #second-content {
         padding: 3em;
         display: grid;
-        grid: gap 2em;
       }
 
       #photos {
