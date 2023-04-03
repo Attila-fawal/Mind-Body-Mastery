@@ -496,12 +496,19 @@ footer {
    
     #menu li {
         display: block;
-        margin: 10px 0;
+        margin: 5px 0;
+        width: 50%;
         padding: 5px;
+        font-size: 75%;
       }
+      #logo {
+      
+        font-size: 160%;
+    }
       
     #hero-image {
-        height: 400px;
+        width: 100%;
+        height: 75%;
         background-size: cover;
     }
     #cover-text {
