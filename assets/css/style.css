@@ -494,11 +494,11 @@ footer {
 @media screen and (max-width: 500px) {
    
     #menu li {
-        clear: both;
-        float: left;
-        text-align: left;
         display: block;
-    }
+        margin: 10px 0;
+        padding: 5px;
+      }
+
     #hero-image {
         height: 400px;
         background-size: cover;
