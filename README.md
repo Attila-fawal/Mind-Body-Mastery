@@ -48,6 +48,17 @@ The gallery will provide the user with supporting images to see and get motivate
 - The user will be asked to submit their full name and email address.
 ![Screenshot (13)](https://user-images.githubusercontent.com/127791713/229765857-c2c6e07e-71ae-479b-b997-62a6222c2df7.png)
 
+## User stories
+- As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about your self.
+-  I want to be able to easily navigate throughout the site to find content and get motivated.
+- I want to sign up to the website so that I am emailed any major updates or events or just to get motivated.
+- The main points are made immediately with the hero image.
+- The user has two options, click the sign up buttons or scroll down, and click the get started buttons both of which will lead to the same place, to sign up page.
+
+## Languages Used
+- HTML5
+- CSS3
+
 ## Testing
 - i tested that this page works in different browsers: Chrome, Firefox, Safari.
 - that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
@@ -65,7 +76,23 @@ The gallery will provide the user with supporting images to see and get motivate
 - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
 ![Screenshot (9)](https://user-images.githubusercontent.com/127791713/229770748-642ddd5e-2473-480e-998e-dc7ae9e0520b.png)
-
+ 
+ ## bugs fixed
+ - 1- in mobile screen the sign up page the form was too big for the screen under 350px the bug happens.
+  form {                                            form{
+    width: 90%;                                        width:80%;
+    margin: 50px auto 0;              TOO              margin: 50px auto 0;
+    margin-top: 70%;                                   margin-top: 40%; 
+  }                                                  }
+ - 2- in mobile screen the #menu li the sign up text position was wrong the (up) text was under (sign) text.
+  #menu li {                                                  #menu li { 
+    display: block;                                              display: block;
+    margin: 5px 0;                                               margin: auto;
+    width: 50%;                                                  min-width: fit-content;
+    padding: 5px;                                                padding: 1%;
+    font-size: 75%;                                              font-size: small;
+  }                                                             }
+  
 ## unfixed bugs 
 - No
 
@@ -75,3 +102,6 @@ The gallery will provide the user with supporting images to see and get motivate
 - freepik.com for pictures.
 - google fonts for text style.
 - and youtube for research.
+
+## Acknowledgements
+My Mentor for helpful feedback.
