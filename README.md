@@ -23,12 +23,14 @@ The aim of the website is to help individuals cultivate greater self-awareness, 
 ## Midsection
 - This user will see the value of signing up for the Mind&Body Mastery. This should encourage the user to consider trying out as their form of exercise.
 - The get started button will send you to sign up page direct.
+
 ![Screenshot (10)](https://user-images.githubusercontent.com/127791713/229758491-eb2236bd-7fc7-4ed8-8575-5ee9b0e139c1.png)
 
 ## The Footer
 
 - The footer section includes links to the relevant social media sites for Mind&Body Mastery. 
 - The links will open to a new tab to allow easy navigation for the user.
+
 ![Screenshot (15)](https://user-images.githubusercontent.com/127791713/229762832-8d7b24fd-6c51-440d-93a6-013f8e80d11b.png)
 
 ## Techniques page
@@ -46,6 +48,7 @@ The gallery will provide the user with supporting images to see and get motivate
 
 - This page will allow the user to get signed up to Mind&Body Mastery to start their journey.
 - The user will be asked to submit their full name and email address.
+
 ![Screenshot (13)](https://user-images.githubusercontent.com/127791713/229765857-c2c6e07e-71ae-479b-b997-62a6222c2df7.png)
 
 ## User stories
@@ -69,6 +72,7 @@ The gallery will provide the user with supporting images to see and get motivate
 ## Validator Testing
 - HTML No errors were returned when passing through the official W3C validator.
 - CSS No errors were found when passing through the official (Jigsaw) validator.
+
 ![Screenshot (5)](https://user-images.githubusercontent.com/127791713/229769391-ef8cea4e-2141-4eed-9bfd-8b4c1120206c.png)
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/127791713/229769688-12dea8a1-8fb2-4445-8481-d3ee01d500d6.png)
@@ -82,7 +86,7 @@ The gallery will provide the user with supporting images to see and get motivate
 
   form { width:90%;   margin:50px auto 0    margin-top:70%; }                                
         
-                        TOO 
+    TOO 
 
   form {  width:80%;  margin:50px auto 0;  margin-top: 40%; }                               
                                                   
@@ -90,11 +94,11 @@ The gallery will provide the user with supporting images to see and get motivate
 
   #menu li {  display:block;    margin:5px 0;    width:50%;    padding:5px;     font-size:75%; } 
                                
-                         TOO
+    TOO
 
   #menu li {  display:block;    margin:auto;     min-width:fit-content;    padding:1%;     font-size:small }                          
    
-![Screenshot (16)](https://user-images.githubusercontent.com/127791713/229906749-f8658e00-0410-4725-867a-4d72e073efc2.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/127791713/229908416-bf1cf7d4-964a-4415-a8a0-ec7a1e70a660.png)
 
 
 ## unfixed bugs 
