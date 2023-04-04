@@ -79,20 +79,24 @@ The gallery will provide the user with supporting images to see and get motivate
  
  ## bugs fixed
  - 1- in mobile screen the sign up page the form was too big for the screen under 350px the bug happens.
-  form {                                            form{
-    width: 90%;                                        width:80%;
-    margin: 50px auto 0;              TOO              margin: 50px auto 0;
-    margin-top: 70%;                                   margin-top: 40%; 
-  }                                                  }
+
+  form { width:90%;   margin:50px auto 0    margin-top:70%; }                                
+        
+                        TOO 
+
+  form {  width:80%;  margin:50px auto 0;  margin-top: 40%; }                               
+                                                  
  - 2- in mobile screen the #menu li the sign up text position was wrong the (up) text was under (sign) text.
-  #menu li {                                                  #menu li { 
-    display: block;                                              display: block;
-    margin: 5px 0;                                               margin: auto;
-    width: 50%;                                                  min-width: fit-content;
-    padding: 5px;                                                padding: 1%;
-    font-size: 75%;                                              font-size: small;
-  }                                                             }
-  
+
+  #menu li {  display:block;    margin:5px 0;    width:50%;    padding:5px;     font-size:75%; } 
+                               
+                         TOO
+
+  #menu li {  display:block;    margin:auto;     min-width:fit-content;    padding:1%;     font-size:small }                          
+   
+![Screenshot (16)](https://user-images.githubusercontent.com/127791713/229906749-f8658e00-0410-4725-867a-4d72e073efc2.png)
+
+
 ## unfixed bugs 
 - No
 
