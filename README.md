@@ -1,108 +1,77 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Attila fawal,
+# Mind&Body Mastery
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Website dedicated to yoga, meditation, and mindfulness provide a range of resources, quotes and pictures to help users motivate, teach and improve their overall well-being.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The aim of the website is to help individuals cultivate greater self-awareness, develop more meaningful relationships, and achieve greater self through the practices of yoga, meditation, and mindfulness.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+![Screenshot (7)x](https://user-images.githubusercontent.com/127791713/229752948-19eecc20-81fa-4d20-b338-6e9d9ca92198.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: _Make Public_,
+- Navigation Bar.
+- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, techniques page, Gallery and Sign Up page to allow for easy navigation.
+- Logo will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- The landing includes a photograph with text overlay eye catching animation to motivate and grab their attention.
 
-Another blue button should appear to click: _Open Browser_.
+![Screenshot (14)](https://user-images.githubusercontent.com/127791713/229758070-43d873e1-988d-4866-8171-50dda53ca90d.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Midsection
+- This user will see the value of signing up for the Mind&Body Mastery. This should encourage the user to consider trying out as their form of exercise.
+- The get started button will send you to sign up page direct.
+![Screenshot (10)](https://user-images.githubusercontent.com/127791713/229758491-eb2236bd-7fc7-4ed8-8575-5ee9b0e139c1.png)
 
-To log into the Heroku toolbelt CLI:
+## The Footer
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The footer section includes links to the relevant social media sites for Mind&Body Mastery. 
+- The links will open to a new tab to allow easy navigation for the user.
+![Screenshot (15)](https://user-images.githubusercontent.com/127791713/229762832-8d7b24fd-6c51-440d-93a6-013f8e80d11b.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Techniques page
+The techniques page will provide the user with supporting images and text to guide them in their journey.
 
-------
+![Screenshot (11)](https://user-images.githubusercontent.com/127791713/229764746-54053c62-f51a-41ee-bd41-37c5a765b2d1.png)
 
-## Release History
+## Gallery page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The gallery will provide the user with supporting images to see and get motivated.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Screenshot (12)](https://user-images.githubusercontent.com/127791713/229763246-2e2dd0a1-99c6-48c3-957c-008106671d25.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## The Sign Up Page
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- This page will allow the user to get signed up to Mind&Body Mastery to start their journey.
+- The user will be asked to submit their full name and email address.
+![Screenshot (13)](https://user-images.githubusercontent.com/127791713/229765857-c2c6e07e-71ae-479b-b997-62a6222c2df7.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Testing
+- i tested that this page works in different browsers: Chrome, Firefox, Safari.
+- that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- that the navigation, header, gallery, techniques, sign up, and contact text are all readable and easy to understand.
+- that the form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
+- that the get started button works.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Validator Testing
+- HTML No errors were returned when passing through the official W3C validator.
+- CSS No errors were found when passing through the official (Jigsaw) validator.
+![Screenshot (5)](https://user-images.githubusercontent.com/127791713/229769391-ef8cea4e-2141-4eed-9bfd-8b4c1120206c.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Screenshot (6)](https://user-images.githubusercontent.com/127791713/229769688-12dea8a1-8fb2-4445-8481-d3ee01d500d6.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![Screenshot (9)](https://user-images.githubusercontent.com/127791713/229770748-642ddd5e-2473-480e-998e-dc7ae9e0520b.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## unfixed bugs 
+- No
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## credits
+- love running project for the text overlay in hero image.
+- fontawesome.com for the icons.
+- freepik.com for pictures.
+- google fonts for text style.
+- and youtube for research.
