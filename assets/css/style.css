@@ -523,6 +523,7 @@ input[type=submit]:hover {
 @media screen and (max-width: 500px) {
 
   #menu li {
+    font-weight: bolder;
     display: block;
     margin: auto;
     min-width: fit-content;
