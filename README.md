@@ -104,6 +104,13 @@ The gallery will provide the user with supporting images to see and get motivate
 ## unfixed bugs 
 - No
 
+## Deployment
+The project was deployed to GitHub Pages using the following steps...
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link can be found here https://attila-fawal.github.io/Mind-Body-Mastery/
+
 ## credits
 - love running project for the text overlay in hero image.
 - fontawesome.com for the icons.
@@ -113,3 +120,19 @@ The gallery will provide the user with supporting images to see and get motivate
 
 ## Acknowledgements
 My Mentor for helpful feedback.
+
+## Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+- Log in to GitHub and locate the GitHub Repository
+- At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+- You should now have a copy of the original repository in your GitHub account.
+
+## Making a Local Clone
+- Log in to GitHub and locate the GitHub Repository
+- Under the repository name, click "Clone or download".
+- To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+- Open Git Bash
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL you copied in Step 3.
+- Press Enter. Your local clone will be created.
